@@ -1,0 +1,9 @@
+services:
+  contactsys:
+    image: ghcr.io/jake-schuler/gocontactsystem:latest
+    container_name: contactsys
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    volumes:
+      - ${PWD}/.env:/usr/src/app/.env
