@@ -23,5 +23,7 @@ go build
 ```
 Then edit then rename the `example.env` to `.env` make your changes and run the binary.
 
-Screenshot
-![](screenshot.png)
+# Screenshot
+[![screenshot of the website](screenshot.png)](#screenshot)
+
+(PS I know this README is terrible)
