@@ -24,7 +24,6 @@ var static embed.FS
 var templates embed.FS
 
 func main() {
-	// gin.SetMode(gin.ReleaseMode)
 	r := gin.Default()
 	err := godotenv.Load()
 	if err != nil {

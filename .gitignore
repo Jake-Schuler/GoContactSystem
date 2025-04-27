@@ -1,3 +1,2 @@
-/.env
-/run test
+*.env
 /tmp
